@@ -41,7 +41,7 @@ const SignInButton = styled(Link)`
   color: rgb(239,235,231);
   align-self: center;
   padding: 30px;
-  margin-top: calc(4em + 3vw);
+  margin-top: calc(2em + 3vw);
   font-size: calc(10px + 1.5vw);
   font-weight: bold;
   border: none;

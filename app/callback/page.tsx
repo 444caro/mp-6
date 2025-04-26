@@ -42,7 +42,7 @@ const Header = styled.h1`
   text-align: center;
   color: rgb(239,235,231);
   background-color: rgb(138,153,168);
-  margin: 2vw;
+  margin: 1vh 2vw;
   padding: 2vw;
   border: 7px rgb(168,153,138) solid;
   border-radius: 10px;
@@ -54,15 +54,15 @@ const StyledText = styled.h1`
   color: rgb(239,235,231);
   background-color: rgb(138,153,168);
   margin: 2vw;
-  padding: 2vw;
+  padding: 1vw;
   border-radius: 10px;
 `;
 
 const StyledImage = styled.img`
-    width: calc(5em + 15vw);
-    height: calc(5em + 15vw);
+    width: calc(7em + 10vw);
+    height: calc(7em + 10vw);
     border-radius: 50%;
-    margin-top: calc(1em + 3vw);
+    margin-top: calc(0.5em + 1vw);
     border: 8px rgb(168,153,138) solid;
 `;
 
@@ -71,7 +71,7 @@ const StyledEmail = styled.p`
   color: rgb(239,235,231);
   align-self: center;
   padding: 30px;
-  margin-top: calc(1em + 3vw);
+  margin-top: calc(0.5em + 1vw);
   font-size: calc(10px + 1.5vw);
   font-weight: bold;
   border: none;
